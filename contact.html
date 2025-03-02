@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Safe Driver</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="animated-bg-shape shape-1"></div>
+        <div class="animated-bg-shape shape-2"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Safe<span class="text-secondary">Driver</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Početna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">O nama</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Usluge</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prices.html">Cenovnik</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Kontaktirajte nas</h2>
+                <p class="lead">Rezervišite svog vozača</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h5 class="mb-1">Adresa</h5>
+                                <p class="mb-0">Radoja Domanovića 16, Novi Sad</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h5 class="mb-1">Telefon</h5>
+                                <p class="mb-0">+381 60 721 2121</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h5 class="mb-1">Email</h5>
+                                <p class="mb-0">office@safedriver021.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h5 class="mb-1">Radno vreme</h5>
+                                <p class="mb-0">24/7, 365 dana u godini</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card mt-4 p-4">
+                        <h5 class="mb-3">Pratite nas</h5>
+                        <div class="d-flex gap-3">
+                            <a href="https://www.facebook.com/safedriver021/" class="btn btn-outline-primary" target="_blank">
+                                <i class="fab fa-facebook-f me-2"></i>Facebook
+                            </a>
+                            <a href="https://www.instagram.com/safedriver021/" class="btn btn-outline-danger" target="_blank">
+                                <i class="fab fa-instagram me-2"></i>Instagram
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="card mt-4">
+                        <div class="card-body">
+                            <h5 class="mb-3">Lokacija</h5>
+                            <img src="https://images.unsplash.com/photo-1577086664693-894d8405334a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Mapa lokacije" class="img-fluid rounded">
+                            <p class="mt-2 text-center">Radoja Domanovića 16, Novi Sad</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="card">
+                        <div class="card-body p-4">
+                            <h4 class="mb-4">Rezervišite vozača</h4>
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="name" class="form-label">Ime i prezime</label>
+                                        <input type="text" class="form-control" id="name" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="email" class="form-label">Email adresa</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Telefon</label>
+                                    <input type="tel" class="form-control" id="phone" required>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="date" class="form-label">Datum</label>
+                                        <input type="date" class="form-control" id="date" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="time" class="form-label">Vreme</label>
+                                        <input type="time" class="form-control" id="time" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="pickup" class="form-label">Adresa preuzimanja</label>
+                                        <input type="text" class="form-control" id="pickup" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="destination" class="form-label">Adresa destinacije</label>
+                                        <input type="text" class="form-control" id="destination" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="service" class="form-label">Vrsta usluge</label>
+                                    <select class="form-select" id="service" required>
+                                        <option value="">Izaberite uslugu</option>
+                                        <option value="city">Gradska vožnja</option>
+                                        <option value="night">Noćni izlazak</option>
+                                        <option value="intercity">Međugradska vožnja</option>
+                                        <option value="airport">Aerodromski transfer</option>
+                                        <option value="event">Poseban događaj</option>
+                                        <option value="vip">VIP usluga</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="car-type" class="form-label">Tip vozila</label>
+                                    <input type="text" class="form-control" id="car-type" placeholder="Model i godina vašeg automobila">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Dodatne informacije</label>
+                                    <textarea class="form-control" id="message" rows="4"></textarea>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="privacy" required>
+                                    <label class="form-check-label" for="privacy">Slažem se sa <a href="#">uslovima korišćenja</a> i <a href="#">politikom privatnosti</a></label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Pošalji rezervaciju</button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <div class="card mt-4">
+                        <div class="card-body p-4">
+                            <h4 class="mb-3">Često postavljana pitanja</h4>
+                            <div class="accordion" id="faqAccordion">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            Koliko unapred moram da rezervišem vozača?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            Preporučujemo da rezervišete vozača najmanje 2 sata unapred. Za posebne događaje i međugradske vožnje poželjno je da rezervišete 24 sata unapred.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Da li mogu da rezervišem vozača za više dana?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            Da, možete rezervisati vozača za više dana. Za takve rezervacije nudimo popuste. Kontaktirajte nas za formiranje posebne ponude.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Šta ako moj automobil nije u voznom stanju?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            Ako vaš automobil nije u voznom stanju, možemo vam ponuditi uslugu taksi vožnje. Kontaktirajte nas za više informacija.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <a href="index.html" class="footer-logo">Safe<span class="text-secondary">Driver</span></a>
+                    <p>Profesionalna usluga vozača koji voze vaš automobil. Bezbedno, pouzdano i diskretno - kad god i gde god vam je potrebno.</p>
+                    <div class="social-links mt-4">
+                        <a href="https://www.facebook.com/safedriver021/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/safedriver021/"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="mb-4">Linkovi</h5>
+                    <a href="index.html" class="footer-link">Početna</a>
+                    <a href="about.html" class="footer-link">O nama</a>
+                    <a href="services.html" class="footer-link">Usluge</a>
+                    <a href="prices.html" class="footer-link">Cenovnik</a>
+                    <a href="contact.html" class="footer-link">Kontakt</a>
+                </div>
+                <div class="col-lg-5">
+                    <h5 class="mb-4">Kontakt</h5>
+                    <p class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Radoja Domanovića 16, Novi Sad</p>
+                    <p class="mb-2"><i class="fas fa-phone-alt me-2"></i> +381 60 721 2121</p>
+                    <p class="mb-2"><i class="fas fa-envelope me-2"></i> office@safedriver021.com</p>
+                    <p class="mb-0"><i class="fas fa-clock me-2"></i> Dostupni 24/7, 365 dana u godini</p>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <p class="mb-0">© 2025 Safe Driver. Sva prava zadržana.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
